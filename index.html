@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Karnataka Bakers Mart RR Nagar | Cake Materials &amp; Baking Supplies</title>
+<meta name="description" content="Your One-Stop Shop for All Baking Needs. Cake premix, whipping cream, decoration items and baking ingredients in Rajarajeshwari Nagar, Bengaluru.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&amp;display=swap">
+<style>
+:root{
+  --bg:#fbf4e4; --surface:#fffaf0; --ink:#3b2314; --muted:#6e5646; --brand:#4a2c1a; --gold:#e8a920; --gold-ink:#3b2314; --line:#e6d6b8; --wa:#1f9d55;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d130c;--surface:#2a1b11;--ink:#f6ead2;--muted:#c9b399;--brand:#f0d9a8;--gold:#e8a920;--gold-ink:#2a1b11;--line:#4a3322;--wa:#2bb673}}
+:root[data-theme="dark"]{--bg:#1d130c;--surface:#2a1b11;--ink:#f6ead2;--muted:#c9b399;--brand:#f0d9a8;--gold:#e8a920;--gold-ink:#2a1b11;--line:#4a3322;--wa:#2bb673}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;font-size:17px}
+h1,h2,h3{font-weight:800;line-height:1.2;color:var(--brand);margin:0;letter-spacing:-.01em}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+h2{font-size:clamp(1.7rem,5vw,2.4rem);margin-bottom:10px}
+.lead{color:var(--muted);max-width:60ch;margin:0 0 28px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:14px;padding-bottom:14px}
+.logo{color:var(--brand);font-size:1.05rem;font-weight:800;text-decoration:none;line-height:1.1}
+.logo small{display:block;font-family:"Nunito Sans",sans-serif;font-size:.72rem;color:var(--muted);font-weight:600}
+nav{display:flex;gap:18px;font-weight:600;font-size:.95rem}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--brand)}
+@media(max-width:560px){nav{display:none}}
+
+.hero{padding:48px 0 56px}
+.hero h1{font-size:clamp(2rem,7vw,3.2rem);max-width:20ch}
+.hero p{font-size:1.15rem;max-width:46ch;color:var(--muted);margin:18px 0 26px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:700;text-decoration:none;border:2px solid var(--brand);color:var(--brand);background:transparent}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:var(--gold-ink)}
+.btn.wa{background:var(--wa);border-color:var(--wa);color:#fff}
+.hero-tags{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:28px;padding:0;list-style:none;color:var(--muted);font-size:.95rem;font-weight:600}
+
+.cats{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.cat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px}
+.cat h3{font-size:1.3rem;margin-bottom:6px}
+.cat p{margin:0;color:var(--muted);font-size:.97rem}
+
+.gallery{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.thumb{height:100px;display:flex;align-items:center;justify-content:center;background:var(--bg);border-bottom:1px solid var(--line);color:var(--muted);font-weight:700;font-size:1rem;text-align:center;padding:10px}
+.item .body{padding:16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.item h3{font-size:1.1rem}
+.item p{margin:0;color:var(--muted);font-size:.94rem;flex:1}
+.item a{font-weight:700;color:var(--wa);text-decoration:none}
+.note{margin-top:16px;color:var(--muted);font-size:.9rem}
+
+.why{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.why ul{margin:0;padding-left:1.2em;max-width:60ch}
+.why li{margin-bottom:8px}
+
+.contact-grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px}
+.card h3{font-size:1.25rem;margin-bottom:10px}
+.card p{margin:0 0 8px}
+.card .btns{margin-top:14px}
+footer{padding:28px 0 96px;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+
+.float{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:20;background:var(--wa);color:#fff;font-weight:700;text-decoration:none;padding:12px 18px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top">Karnataka Bakers Mart<small>RR Nagar, Bengaluru</small></a>
+    <nav aria-label="Main">
+      <a href="#categories">Categories</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Your One-Stop Shop for All Baking Needs</h1>
+      <p>Cake-making items from basic to advanced level, A to Z baking products under one roof in Rajarajeshwari Nagar.</p>
+      <div class="btns">
+        <a class="btn wa" href="https://wa.me/918792010572?text=Hi%20Karnataka%20Bakers%20Mart%2C%20I%20have%20an%20enquiry." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        <a class="btn gold" href="tel:+918792010472">Call the shop</a>
+      </div>
+      <ul class="hero-tags">
+        <li>6 years in business</li>
+        <li>Open 11:00 AM to 10:00 PM</li>
+        <li>Beginners and professionals</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="categories">
+    <div class="wrap">
+      <h2>Shop by category</h2>
+      <p class="lead">Browse what we stock and message us for availability and rates.</p>
+      <div class="cats">
+        <div class="cat"><h3>Cake premix</h3><p>Ready-to-use premixes for quick, reliable cakes.</p></div>
+        <div class="cat"><h3>Whipping cream</h3><p>Creams for frosting, filling and finishing.</p></div>
+        <div class="cat"><h3>Decoration items</h3><p>Materials and accessories to decorate every cake.</p></div>
+        <div class="cat"><h3>Baking ingredients</h3><p>Everyday essentials and supplies for the oven.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="why">
+    <div class="wrap">
+      <h2>Product gallery</h2>
+      <p class="lead">A few popular picks. Tap a product to ask about it on WhatsApp.</p>
+      <div class="gallery">
+        <article class="item">
+          <div class="thumb">Tropolite 180</div>
+          <div class="body"><h3>Tropolite 180</h3><p>A popular choice for cake makers. Ask us for stock and pricing.</p>
+            <a href="https://wa.me/918792010572?text=Hi%2C%20is%20Tropolite%20180%20available%3F" target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+        </article>
+        <article class="item">
+          <div class="thumb">Pillsbury Cake Premix</div>
+          <div class="body"><h3>Pillsbury Cake Premix</h3><p>Premix for soft, consistent cakes, from home bakers to professionals.</p>
+            <a href="https://wa.me/918792010572?text=Hi%2C%20is%20Pillsbury%20Cake%20Premix%20available%3F" target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+        </article>
+        <article class="item">
+          <div class="thumb">Whipping cream</div>
+          <div class="body"><h3>Whipping cream</h3><p>For frosting, layering and decoration.</p>
+            <a href="https://wa.me/918792010572?text=Hi%2C%20which%20whipping%20cream%20brands%20do%20you%20have%3F" target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+        </article>
+        <article class="item">
+          <div class="thumb">Decoration materials</div>
+          <div class="body"><h3>Decoration materials</h3><p>Accessories and finishing items for every occasion.</p>
+            <a href="https://wa.me/918792010572?text=Hi%2C%20I%20need%20cake%20decoration%20items." target="_blank" rel="noopener">Ask on WhatsApp</a></div>
+        </article>
+      </div>
+      <p class="note">Product photos will be added soon.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Why bakers choose us</h2>
+      <p class="lead">Everything for your cake in one trip.</p>
+      <ul>
+        <li>A to Z cake-making and baking materials available in one place in RR Nagar.</li>
+        <li>Basic to premium baking products, so beginners and professionals both find what they need.</li>
+        <li>Six years of serving local home bakers and cake makers.</li>
+        <li>Quick answers on WhatsApp before you visit.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="why">
+    <div class="wrap">
+      <h2>Visit or contact us</h2>
+      <p class="lead">Ask for Vicky at the shop.</p>
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Address</h3>
+          <p>Sourabha Complex, Basement, 12th Cross Rd, near 1947 Hotel, Remco Bhel Layout, Ideal Homes Township, Rajarajeshwari Nagar, Bengaluru, Karnataka</p>
+          <div class="btns"><a class="btn gold" href="https://www.google.com/maps/search/?api=1&amp;query=Karnataka+Bakers+Mart+Sourabha+Complex+Rajarajeshwari+Nagar+Bengaluru" target="_blank" rel="noopener">Open in Google Maps</a></div>
+        </div>
+        <div class="card">
+          <h3>Hours and phone</h3>
+          <p>Open daily, 11:00 AM to 10:00 PM</p>
+          <p>Phone: <a href="tel:+918792010472">8792010472</a></p>
+          <p>WhatsApp: <a href="https://wa.me/918792010572" target="_blank" rel="noopener">8792010572</a></p>
+          <div class="btns">
+            <a class="btn wa" href="https://wa.me/918792010572?text=Hi%20Karnataka%20Bakers%20Mart%2C%20I%20have%20an%20enquiry." target="_blank" rel="noopener">WhatsApp us</a>
+            <a class="btn" href="https://www.instagram.com/karnatakabakersmartbanglore" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Karnataka Bakers Mart RR Nagar · Cake Materials &amp; Baking Supplies · Bengaluru</div>
+</footer>
+
+<a class="float" href="https://wa.me/918792010572?text=Hi%20Karnataka%20Bakers%20Mart%2C%20I%20have%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+</body>
+</html>
